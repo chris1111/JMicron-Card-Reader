@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="1">
+    <title>JMicron Card Reader</title>
+    <pkg-ref id="com.JMicron.Card.Reader">
+        <bundle-version>
+            <bundle CFBundleVersion="1.5.0" id="com.jmicron.driver.JMB38X" path="JMB38X.kext"/>
+            <bundle CFBundleVersion="1.5.0" id="com.jmicron.driver.HSSDBlockStorage" path="HSSDBlockStorage.kext"/>
+        </bundle-version>
+    </pkg-ref>
+    <options customize="never" allow-external-scripts="false"/>
+    
+   <domains enable_anywhere="true"/>
+    <background file="background.png" alignment="center" scaling="tofit"/>
+    <background-darkAqua file="background.png" alignment="center" scaling="tofit"/>
+    <welcome file="intro-text.rtfd" mime-type="application/rtf"/>
+    <conclusion file="post-readme.rtfd" mime-type="application/rtf"/>
+    <choices-outline>
+        <line choice="default">
+            <line choice="com.JMicron.Card.Reader"/>
+        </line>
+    </choices-outline>
+    <choice id="default"/>
+    <choice id="com.JMicron.Card.Reader" visible="false">
+        <pkg-ref id="com.JMicron.Card.Reader"/>
+    </choice>
+    <pkg-ref id="com.JMicron.Card.Reader" version="1" onConclusion="none" installKBytes="1102">#JMicronCardReader.pkg</pkg-ref>
+</installer-gui-script>
