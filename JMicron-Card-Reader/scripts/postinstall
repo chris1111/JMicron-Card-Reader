@@ -1,0 +1,20 @@
+#!/bin/sh
+
+chmod -R 755 /Private/tmp/HSSDBlockStorage.kext
+chown -R root:wheel /Private/tmp/HSSDBlockStorage.kext
+
+chmod -R 755 /Private/tmp/JMB38X.kext
+chown -R root:wheel /Private/tmp/JMB38X.kext
+
+cp -R /Private/tmp/JMB38X.kext /Library/Extensions/
+cp -R /Private/tmp/HSSDBlockStorage.kext /Library/Extensions/
+
+
+echo "Touch Extensions"
+touch "${3}/Library/Extensions/"
+Sleep 10
+rm -rf /Private/tmp/*.kext
+
+
+
+
