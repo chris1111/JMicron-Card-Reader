@@ -1,6 +1,7 @@
 # JMicron-Card-Reader for macOS
 
 * Welcome JMicron Card Reader
+* macOS Package for Laptop using card reader JMicron
 - Support macOS Monterey 12 and macOS Big Sur 11 
 - Do not use this program in another version of macOS
 - SIP security must disable to using this program!
