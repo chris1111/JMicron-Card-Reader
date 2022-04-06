@@ -2,7 +2,7 @@
 
 * Welcome JMicron Card Reader
 * macOS Package for Laptop using card reader JMicron
-- Support macOS Monterey 12 and macOS Big Sur 11 
+- Support macOS Monterey 12, Big Sur 11, Catalina 10.15
 - Do not use this program in another version of macOS
 - SIP security must disable to using this program!
 - This will install HSSDBlockStorage.kext, JMB38X.kext in /Library/Extensions/
