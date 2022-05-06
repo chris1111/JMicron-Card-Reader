@@ -27,7 +27,7 @@
 			<key>IOClass</key>
 			<string>JMB38X</string>
 			<key>IOPCIMatch</key>
-			<string>0x2392197B</string>
+			<string>0x2392197B 0xE8221180</string>
 			<key>IOProviderClass</key>
 			<string>IOPCIDevice</string>
 		</dict>
