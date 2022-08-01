@@ -9,4 +9,5 @@
 - Followed the Guide ➤ [Guide](https://github.com/chris1111/JMicron-Card-Reader/blob/main/Guide.pdf)
 - Credit: [JMicron](https://www.jmicron.com/)
 Download ☞ [JMicron-Card-Reader](https://github.com/chris1111/JMicron-Card-Reader/raw/main/JMicron-Card-Reader.pkg.zip)
-![Screen Shot 2021-12-20 at 7 22 32 PM](https://user-images.githubusercontent.com/6248794/146850202-4c902894-af61-42f3-a538-158308562ff1.png)
+
+![Screenshot 2022-08-01 at 7 43 40 PM](https://user-images.githubusercontent.com/6248794/182263103-5de1b79b-f661-4efd-a736-b1e5642083a8.png)
